@@ -1,17 +1,19 @@
 {
-  "name": "node-bin-gen",
-  "version": "9.0.2",
+  "name": "node-builder",
+  "version": "0.0.0",
   "description": "Generate a node binary package",
-  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "author": "Shad Sterling <ssterling3@gsu.edu>",
+  "contributors": [ "Aria Stewart <aredridel@dinhe.net>", "Shad Sterling <ssterling3@gsu.edu>" ],
   "main": "index.js",
   "bin": "index.js",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aredridel/node-bin-gen"
+    "url": "https://github.com/gastate/node-builder"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=8.0.0",
+    "npm": ">=3"
   },
   "dependencies": {
     "end-of-stream": "^1.4.1",

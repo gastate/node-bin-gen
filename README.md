@@ -1,3 +1,11 @@
+# node-builder
+
+This fork was intended to create a package that would act as a given version of Node, much as the [node package](https://www.npmjs.com/package/node) does, but using the mechanism of the [node-bin-gen package](https://www.npmjs.com/package/node-bin-gen) to eliminate the need for intermediate `node-{os}-{cpu}` packages.
+
+Before it was finished, two things happened that made it unnecessary for the project at hand:
+1. [@aridridel](https://github.com/aredridel) added the missing `node-{os}-{cpu}@{version}` combination (node-darwin-x64@6.10.3)
+2. [AWS Lambda added support for Node 8.10](https://aws.amazon.com/about-aws/whats-new/2018/04/aws-lambda-supports-nodejs/)
+
 # node-bin-gen
 
 Generate a node binary package
